@@ -17,12 +17,12 @@ apply plugin:"org.grails.grails-plugin"
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
-//    maven {
-//        url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-//        mavenContent {
-//            snapshotsOnly()
-//        }
-//    }
+    maven {
+        url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+        mavenContent {
+            snapshotsOnly()
+        }
+    }
 }
 
 configurations {
