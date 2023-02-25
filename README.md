@@ -5,6 +5,8 @@
 This project [Grails Dynamic Modules Demo](https://github.com/rainboyan/grails-dynamic-modules-demo) show you how to Develop dynamic modules in your Grails plugin, 
 I create three plugin module types: `LanguageModuleDescriptor`, `MenuModuleDescriptor`, `MenuItemModuleDescriptor`, and use these modules to rewrite the Grails main page.
 
+![Grails Dynamic Modules Demo](screenshot.png)
+
 ## Grails Version
 
 - Grails **4.1.2**
