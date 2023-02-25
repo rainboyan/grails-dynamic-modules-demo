@@ -1,4 +1,4 @@
-package org.grails.demo
+package org.rainboyan.demo
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

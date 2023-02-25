@@ -1,4 +1,4 @@
-package org.grails.demo
+package org.rainboyan.demo
 
 class UrlMappings {
 
@@ -10,6 +10,10 @@ class UrlMappings {
         }
 
         "/"(view:"/index")
+        "/about"(view:"/about")
+        "/product"(view:"/product")
+        "/contact"(view:"/contact")
+        "/help"(view:"/help")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

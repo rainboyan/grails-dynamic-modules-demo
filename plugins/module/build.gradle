@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        maven { url "https://repo.grails.org/grails/core" }
+    }
+    dependencies {
+        classpath "org.grails:grails-gradle-plugin:$grailsVersion"
+    }
+}
+
+version "0.1"
+group "org.rainboyan.demo"
+
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"org.grails.grails-plugin"
+
+repositories {
+    mavenLocal()
+    maven { url "https://repo.grails.org/grails/core" }
+//    maven {
+//        url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+//        mavenContent {
+//            snapshotsOnly()
+//        }
+//    }
+}
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+}
+
+dependencies {
+    compile "org.grails:grails-core"
+    compile "org.rainboyan.plugins:grails-plugin-dynamic-modules:0.0.1-SNAPSHOT"
+}
+
+bootRun {
+    enabled = false
+}

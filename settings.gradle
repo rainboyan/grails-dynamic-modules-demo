@@ -1,0 +1,3 @@
+rootProject.name = 'Grails Dynamic Modules Demo'
+
+include "plugins:module"
