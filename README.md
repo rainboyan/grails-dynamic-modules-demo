@@ -18,21 +18,16 @@ Add dependency to the `build.gradle`,
 ```gradle
 
 repositories {
-    maven {
-        url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-        mavenContent {
-            snapshotsOnly()
-        }
-    }
+    mavenCentral()
 }
 
 dependencies {
 
     // in Grails 4
-    compile "org.rainboyan.plugins:grails-plugin-dynamic-modules:0.0.1-SNAPSHOT"
+    compile "org.rainboyan.plugins:grails-plugin-dynamic-modules:0.0.1"
 
     // in Grails 5
-    implementation "org.rainboyan.plugins:grails-plugin-dynamic-modules:0.0.1-SNAPSHOT"
+    implementation "org.rainboyan.plugins:grails-plugin-dynamic-modules:0.0.1"
 }
 
 ```
