@@ -1,9 +1,8 @@
 package org.rainboyan.demo.module
 
 import grails.plugins.GrailsPlugin
+import grails.plugins.descriptors.AbstractModuleDescriptor
 import grails.plugins.exceptions.PluginException
-import grails.plugins.module.AbstractModuleDescriptor
-import grails.plugins.module.ModuleType
 
 class MenuItemModuleDescriptor extends AbstractModuleDescriptor {
 
