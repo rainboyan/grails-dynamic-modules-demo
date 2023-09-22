@@ -4,8 +4,8 @@ import grails.plugins.*
 import grails.util.Environment
 import grails.util.GrailsUtil
 
-class ModuleGrailsPlugin extends DynamicPlugin {
-    def version = "1.0.0-SNAPSHOT"
+class MenuGrailsPlugin extends DynamicPlugin {
+    def version = "1.0.0"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = GrailsUtil.getGrailsVersion()
 
